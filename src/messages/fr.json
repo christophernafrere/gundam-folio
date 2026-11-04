@@ -1,0 +1,20 @@
+{
+    "Metadata": {
+        "siteName": "Christopher Nafrere",
+        "title": "Christopher Nafrere | Développeur Full Stack",
+        "description": "Découvrez le portfolio de Christopher Nafrere, développeur Full Stack spécialisé en React, Next.js, Node.js et conception d'applications web."
+    },
+    "Navigation": {
+        "home": "Accueil",
+        "about": "À propos",
+        "projects": "Projets",
+        "skills": "Compétences",
+        "experiences": "Expériences",
+        "services": "Services",
+        "contact": "Contact"
+    },
+    "Home": {
+        "title": "Développeur Full Stack",
+        "subtitle": "Je conçois et développe des expériences numériques."
+    }
+}
