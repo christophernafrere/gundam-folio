@@ -11,6 +11,7 @@ import { notFound } from "next/navigation";
 
 import StyledComponentsRegistry from "@/lib/registry";
 import { routing } from "@/i18n/routing";
+import GlobalStyles from "../global-styles";
 
 const spaceGrotesk = Space_Grotesk({
     subsets: ["latin"],
@@ -115,6 +116,7 @@ export default async function RootLayout({ children, params }: Props) {
     return (
         <html lang={locale}>
             <body className={spaceGrotesk.variable}>
+                <GlobalStyles />
                 <StyledComponentsRegistry>
                     <NextIntlClientProvider messages={messages}>
                         {children}
